@@ -2,7 +2,7 @@ import http.server
 import socketserver
 
 # Define the port to serve on
-PORT = 80
+PORT = 8000
 
 # Set up the standard request handler for serving files
 Handler = http.server.SimpleHTTPRequestHandler
